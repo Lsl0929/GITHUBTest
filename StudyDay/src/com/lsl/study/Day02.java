@@ -16,6 +16,8 @@ public class Day02 {
         System.out.println( (s!=null) && (s.length()>0)); //s!=null返回false 第二个操作不会执行，不会抛出异常
       //  System.out.println(s==null&s.length()==0);//$ | 位移运算符 得到的结果是布尔值，不按短路的方式计算。即在得到结果前，一定要计算两个操作数的值。
       //  String s; //局部变量没有默认值
-
+        System.out.println(Thread.currentThread().getName());
+        Thread t1 = new Thread(new MyThread());
+        t1.start();
     }
 }
