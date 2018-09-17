@@ -36,6 +36,13 @@ public class Day02_For {
             System.out.println();
         }
 
-
+        //求1到100之间所有偶数的和
+        int k = 0;
+        for(int j=1;j<=100;j++){
+            if(j%2==0){
+                k+=j;
+            }
+        }
+        System.out.println(k);
     }
 }
