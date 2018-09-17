@@ -14,5 +14,10 @@ public class Day01 {
         System.out.println(n1==n2);
         System.out.println(",");
         System.out.println(n1!=n2);//类的加载包括：加载，验证，准备，解析，初始化。
+        float f = 12.23F;
+        char c3 = '\u0061';
+        System.out.println(c3);
+        System.out.println(c3+1);
+        System.out.println((char)(c3+1));
     }
 }
