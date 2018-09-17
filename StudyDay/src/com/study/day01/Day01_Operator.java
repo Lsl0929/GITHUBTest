@@ -39,6 +39,28 @@ public class Day01_Operator {
         //+ 除了把字符串相加，还能把非字符串转成字符串
         System.out.println("5+5="+5+5);
 
+        //扩展赋值运算符： +=, -=, *=, /=, %=
+        x += 1000;
+        System.out.println(x); // x = x+1000; 4000
+
+        //^ 异或 当且仅当两边的表达式的结果为不同时结果为true 否则为false
+        int  a = 10;
+        int  b = 25;
+        System.out.println(a>5 ^ b<30);//false
+        System.out.println(a>15 ^ b<30);//true
+        System.out.println(a>5 ^ b<20);//true
+
+        //短路逻辑运算符 ： && ||
+        System.out.println(a>15 & b<30);//单个&运算符  前后两个都要运算
+        System.out.println(a>15 && b<30);//短路逻辑运算符  前边的表达式已经可以确定整个表达式的值，则不在计算后边的值
+
+        //位移运算符
+        int c = 3;// 0000 0011
+        System.out.println(c << 2);// 0000 1100  = 12  左移
+        System.out.println(c >> 2);//右移 0  无符号右移 >>>
+
+        //三元运算符  条件表达式？表达式1 ：表达式2  条件为true 结果为表达式1 否则取表达式2
+        System.out.println(c==4?"1":"2");
 
 
     }
