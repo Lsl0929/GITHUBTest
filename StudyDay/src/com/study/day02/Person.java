@@ -33,4 +33,10 @@ public class Person {
         return  i+j;
     }
 
+    int redius;
+
+    public double findArea(){
+        return redius*redius*3.14;
+    }
+
 }
