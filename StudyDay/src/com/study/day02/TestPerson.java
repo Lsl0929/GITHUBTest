@@ -22,7 +22,7 @@ public class TestPerson {
         //使用一次就会被系统作为垃圾等待回收  我们通常将匿名对象当作参数传给一个函数来使用
         new Person().shout();
 
-        p1.redius =2;
+        p1.setRedius(3);
         System.out.println(p1.findArea());
 
     }
