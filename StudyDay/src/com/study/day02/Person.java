@@ -50,6 +50,11 @@ public class Person {
     int add(int i,int j){
         return  i+j;
     }
+    //方法重载  一个类中可以定义多个同名方法 --- 方法名重载 overload
+    //重载方法的参数列表必须不同  即 参数个数 或者参数类型 不同   返回值可以相同 也可不同  调用是根据参数类型来区别
+    int add(int i,int j,int c){
+        return  i+j;
+    }
     //使用private关键字 ：可以修饰类的成员，一经使用private修饰，该属性将不能在外部被直接访问。
     //可以提供public方法来操作属性，getXxx()返回属性值,setXxx()为属性赋值
     private int redius;
