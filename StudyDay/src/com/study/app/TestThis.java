@@ -10,5 +10,10 @@ public class TestThis {
         Girl girl = new Girl();
         girl.setName("Jerry");
         boy.marry(girl);
+
+        Cylinder c = new Cylinder();
+        c.setLength(2);
+        System.out.println(c.findArea());
+        System.out.println(c.findVolume());
     }
 }
