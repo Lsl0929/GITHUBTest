@@ -74,4 +74,15 @@ public class Person {
         }
         this.redius = redius;
     }
+
+
+    //仅在内部可以被访问
+    private String name1;
+    //不加修饰符，在同一个包内该属性可见。
+    String name2;
+    //在子类中可以被访问，且该子类可以跨包
+    protected int saly;
+    //访问权限最高，无论是否在一个包内，无论是否为子类都可以访问
+    public String name3;
+
 }
