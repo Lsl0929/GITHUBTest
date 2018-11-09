@@ -47,4 +47,8 @@ public class MyDate {
         MyDate myDate = (MyDate) obj;
         return this.year == myDate.year && this.month==myDate.month && this.day  == myDate.day;
     }
+
+    public String toDateString(){
+        return year+"年"+month+"月"+day+"日";
+    }
 }
