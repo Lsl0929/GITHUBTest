@@ -3,6 +3,8 @@ package com.study.day02;
 import com.study.day03.Man;
 import com.study.day03.Woman;
 
+import java.io.BufferedReader;
+
 /**
  * @author 梁世龙
  * @create 2018-10-10 15:07
@@ -34,6 +36,7 @@ public class TestPerson {
 
         Person p3 = new Person("Tam",66);
         System.out.println(p3.name+"😍"+p3.age);
+        System.out.println(p1.equals(p3));
 
 
         //多态
@@ -58,4 +61,5 @@ public class TestPerson {
        // Man m2 = new Person();  错误的表现方式  需要一个男人  来了一个人  不合法因为人不一定是男人
 
     }
+
 }
