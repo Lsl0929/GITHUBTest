@@ -31,9 +31,10 @@ public class day1023 {
         String[] s= new String[10];
         System.out.println(s[9]);//值为null
         System.out.println(s.length);//数组长度为10
+        int i, sum=0;
 
-        
-
+        for(i=0;i<10;++i,sum+=i);
+        System.out.println(i);
     }
 
 }
