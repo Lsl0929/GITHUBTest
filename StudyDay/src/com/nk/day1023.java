@@ -35,6 +35,14 @@ public class day1023 {
 
         for(i=0;i<10;++i,sum+=i);
         System.out.println(i);
+
+        int x =1;c=2;b=3;
+        System.out.println(c+=b--/x++);
+        /**
+         * 下列关于java抽象类的说法哪个正确？
+         *一个类只能继承一个抽象类  java单继承多实现
+         */
+
     }
 
 }
