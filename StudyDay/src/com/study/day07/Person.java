@@ -14,6 +14,7 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+        System.out.println(name);
     }
 
     public int getAge() {
