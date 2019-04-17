@@ -1,12 +1,17 @@
 package com.nk;
 
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
 /**
  * @author 梁世龙
  * @create 2018-10-23 15:47
  */
 
-
 public class day1023 {
+
     //每天10道牛客java面试题
     //在JAVA中，无论在何处调用，使用静态属性必须以类目做前缀   错误  本类使用，可以直接使用静态变量名。非本类可以使用类名.属性名 也可以new一个对象来调用
     //final关键字可以用来修饰方法，表明此方法不可以被子类重写
@@ -43,6 +48,26 @@ public class day1023 {
          *一个类只能继承一个抽象类  java单继承多实现
          */
 
+        double ss =3.0;
+        int ss1 =5;
+        System.out.println(ss+=--ss1); // ss+=--s1   ss=ss+--s1
+
+        List list=new ArrayList();
+        list.add("a");
+        list.add("b");
+        list.add("a");
+        Set set=new HashSet();
+        set.add("a");
+        set.add("b");
+        set.add("a");
+        //List是有序的Collection，使用此接口能够精确的控制每个元素插入的位置。
+        // 用户能够使用索引（元素在List中的位置，类似于数组下标）来访问List中的元素，这类似于Java的数组。
+        // 和Set不同，List允许有相同的元素。
+        //Set是一种不包含重复元素的Collection，即任意的两个元素e1和e2都有e1.equals(e2)=false，Set最多有一个null元素。
+        //list.size() 值为3  set.size()值为2
+        System.out.println(list.size()+","+set.size());
+        //对于一个已经不被任何变量引用的对象，当垃圾回收器准备回收该对象所占用的内存时，将自动调用该对象的哪个方法（）finalize()
+        //对于子类的构造函数说明，下列叙述中错误的是（）。 子类可以继承父类的构造函数。 java继承中对构造函数是不继承的，只是显式或者隐式调用
     }
 
 }
