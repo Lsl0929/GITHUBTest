@@ -64,7 +64,9 @@ public class Day02_Keyword {
         char c1= 'a';
         System.out.println(c1);
 
-
+        //布尔型（boolean） 只能是 true  false
+        boolean b1 = true;
+        System.out.println(b1);
     }
 
 }
