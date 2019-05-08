@@ -1,6 +1,7 @@
 package com.study2019.day01;
 
-import org.junit.jupiter.api.Test;
+
+import org.junit.Test;
 
 /**
  * @author Lsl
