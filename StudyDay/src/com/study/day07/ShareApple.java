@@ -38,6 +38,15 @@ public class ShareApple implements Runnable{
 
 
     public static void main(String[] args) {
+
+        int i=0;
+        int j=0;
+        if((++i>0)||(++j>0))
+        {
+            //打印出i和j的值。
+            System.out.println(i+","+j);
+        }
+
         ShareApple shareApple = new ShareApple();
         Thread th1 = new Thread(shareApple);
         Thread th2 = new Thread(shareApple);
