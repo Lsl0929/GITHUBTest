@@ -9,6 +9,7 @@ package com.study2019.day01.day02;
  *  方法名 ： 属于标识符，遵循标识符的规则和规范
  *  方法的使用：可以调用当前类的属性或方法
  *             特殊：方法A调用了方法A： 递归方法
+ *   方法中不能定义方法
  */
 public class CustomerTest {
     public static void main(String[] args) {

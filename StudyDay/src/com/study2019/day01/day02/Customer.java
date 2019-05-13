@@ -13,7 +13,7 @@ public class Customer {
     public void eat(){
         System.out.println("吃饭");
         //方法中可以调用方法
-        sleep(10);
+        sleep(20);
     }
 
     public void  sleep(int hour){
